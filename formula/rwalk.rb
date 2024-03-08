@@ -5,31 +5,31 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "1a11e951304beabc979f51217a74d9cd30d4370283cc11fe9941a677bdb3946f"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "0b7381fa60256e7625222c2f99038309ae2926103a326855dbfefe9137837372"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.0/rwalk-0.5.0-darwin-amd64.tar.gz"
-      sha256 "d03233c601fb3467b2595e8989c8bfe85fa3a3f8333c18f6efc820a65b8d52c6"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.1/rwalk-0.5.1-darwin-amd64.tar.gz"
+      sha256 "ef5e08cbae0bf4810f81e654aaeff286124d90d363b76b0aa47537b2800325d0"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.0/rwalk-0.5.0-darwin-arm64.tar.gz"
-      sha256 "f271d35d3fd49177551e8d03ef7291ec30a7eb029086598fcb4d790b4dbf677c"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.1/rwalk-0.5.1-darwin-arm64.tar.gz"
+      sha256 "173f49ad88990ec8ced13156862ad67f7a9da98184b5735067333f11120dad9e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.0/rwalk-0.5.0-linux-amd64.tar.gz"
-      sha256 "82fc9efff950b58393a60e9198631eee309f3679373e62f8fba557f76d08470a"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.1/rwalk-0.5.1-linux-amd64.tar.gz"
+      sha256 "196a9b8fed63587b6a7e4753caeb3a5189d842ed231a5c479c5d0d8c7002c738"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.0/rwalk-0.5.0-linux-arm64.tar.gz"
-      sha256 "b3fe4dfca8504f26590155ef04c9c666ad536477f02438e7db04e9b1b3095cab"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.1/rwalk-0.5.1-linux-arm64.tar.gz"
+      sha256 "a1ac0ea41c6da4ce0ee1a49465ff87563f8d0393de63031a8593b06085efc58c"
     end
   end
 
