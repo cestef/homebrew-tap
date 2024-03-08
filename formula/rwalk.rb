@@ -5,31 +5,31 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.6.tar.gz"
-  sha256 "bdbca96cdeb22eff47d3d1685264cf0ab5c747aa8977b08b168584f9c74c3807"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.8.tar.gz"
+  sha256 "717187feb41ea70bf2a2e8a2d0a2e4fe506e42c5ef6dcfe87b3b464de20f9caa"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.6/rwalk-0.5.6-darwin-amd64.tar.gz"
-      sha256 "8aaec7210acb9634e6c94f6a8823e7fa06f365eecf201c5c27c9e84e68387ffa"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.8/rwalk-0.5.8-darwin-amd64.tar.gz"
+      sha256 "5e75bdeb6a079b8122b86ba54762f0a6e3dafb8dd57a92c814824fc023c75733"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.6/rwalk-0.5.6-darwin-arm64.tar.gz"
-      sha256 "3ce58610cdf645f0e0fbf88d8b52c8130758b91fde51a015ea94c7aef2bc8fc7"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.8/rwalk-0.5.8-darwin-arm64.tar.gz"
+      sha256 "822ecf14ff1808dc900d35cb0122b5d27ab03dcd7995e0811c9468b1f88d5f3c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.6/rwalk-0.5.6-linux-amd64.tar.gz"
-      sha256 "32ca605120c549ecf0dfac3b48ee9b3a5d33da84b534dac477c2cc0868ed5379"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.8/rwalk-0.5.8-linux-amd64.tar.gz"
+      sha256 "d376d00d92dc5711fdc77bcd7e65f5d9577fed05f464366fd6149d660bb027c6"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.6/rwalk-0.5.6-linux-arm64.tar.gz"
-      sha256 "1fc714c8a03f476e884bc864b1843063570e02e109429f5dfed47ac433d2aed8"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.8/rwalk-0.5.8-linux-arm64.tar.gz"
+      sha256 "fb7161d056c6721f1ecc71829b3ac390d04432c6e70533cdac1cb51d08d4adce"
     end
   end
 
