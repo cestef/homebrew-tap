@@ -5,31 +5,31 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "0b7381fa60256e7625222c2f99038309ae2926103a326855dbfefe9137837372"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.6.tar.gz"
+  sha256 "bdbca96cdeb22eff47d3d1685264cf0ab5c747aa8977b08b168584f9c74c3807"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.1/rwalk-0.5.1-darwin-amd64.tar.gz"
-      sha256 "ef5e08cbae0bf4810f81e654aaeff286124d90d363b76b0aa47537b2800325d0"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.6/rwalk-0.5.6-darwin-amd64.tar.gz"
+      sha256 "8aaec7210acb9634e6c94f6a8823e7fa06f365eecf201c5c27c9e84e68387ffa"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.1/rwalk-0.5.1-darwin-arm64.tar.gz"
-      sha256 "173f49ad88990ec8ced13156862ad67f7a9da98184b5735067333f11120dad9e"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.6/rwalk-0.5.6-darwin-arm64.tar.gz"
+      sha256 "3ce58610cdf645f0e0fbf88d8b52c8130758b91fde51a015ea94c7aef2bc8fc7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.1/rwalk-0.5.1-linux-amd64.tar.gz"
-      sha256 "196a9b8fed63587b6a7e4753caeb3a5189d842ed231a5c479c5d0d8c7002c738"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.6/rwalk-0.5.6-linux-amd64.tar.gz"
+      sha256 "32ca605120c549ecf0dfac3b48ee9b3a5d33da84b534dac477c2cc0868ed5379"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.1/rwalk-0.5.1-linux-arm64.tar.gz"
-      sha256 "a1ac0ea41c6da4ce0ee1a49465ff87563f8d0393de63031a8593b06085efc58c"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.6/rwalk-0.5.6-linux-arm64.tar.gz"
+      sha256 "1fc714c8a03f476e884bc864b1843063570e02e109429f5dfed47ac433d2aed8"
     end
   end
 
