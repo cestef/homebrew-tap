@@ -5,31 +5,31 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.8.tar.gz"
-  sha256 "717187feb41ea70bf2a2e8a2d0a2e4fe506e42c5ef6dcfe87b3b464de20f9caa"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.9.tar.gz"
+  sha256 "2c9e888ed655af68bcb1e687893e34685a22a52a7f2952e34fe396d6a33354b7"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.8/rwalk-0.5.8-darwin-amd64.tar.gz"
-      sha256 "5e75bdeb6a079b8122b86ba54762f0a6e3dafb8dd57a92c814824fc023c75733"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.9/rwalk-0.5.9-darwin-amd64.tar.gz"
+      sha256 "80a0b088159536b6b3c4f25e3a2bea8d05f2a5d42f516482553725a37bb13aa9"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.8/rwalk-0.5.8-darwin-arm64.tar.gz"
-      sha256 "822ecf14ff1808dc900d35cb0122b5d27ab03dcd7995e0811c9468b1f88d5f3c"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.9/rwalk-0.5.9-darwin-arm64.tar.gz"
+      sha256 "7e3939a2e1822ecbeb88a1f103a858e3f7f5888f212f6da8e13cf6ca523e3b24"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.8/rwalk-0.5.8-linux-amd64.tar.gz"
-      sha256 "d376d00d92dc5711fdc77bcd7e65f5d9577fed05f464366fd6149d660bb027c6"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.9/rwalk-0.5.9-linux-amd64.tar.gz"
+      sha256 "9470e63047177b002cabcd3c55984ca22ac3c26460f1ddb1eed669937e75691c"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.8/rwalk-0.5.8-linux-arm64.tar.gz"
-      sha256 "fb7161d056c6721f1ecc71829b3ac390d04432c6e70533cdac1cb51d08d4adce"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.9/rwalk-0.5.9-linux-arm64.tar.gz"
+      sha256 "d6d9a3be82156c0a60c89c72b5262835ab1b802d8422c389b4299fd614d222d4"
     end
   end
 
