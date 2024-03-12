@@ -5,31 +5,31 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.10.tar.gz"
-  sha256 "d36a6920db6fa8fa50abff0f69b6d7494411f792b0b2b21dd9bad6153eadbeca"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.11.tar.gz"
+  sha256 "7fc7b9d60e7eb936ca8615869ff1ac5705c49f73a39f72ead13453b178e805b2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.10/rwalk-0.5.10-darwin-amd64.tar.gz"
-      sha256 "7cb55952e10660c1e8caece733fb4c0a3630555492e6265a25524b246f626c88"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.11/rwalk-0.5.11-darwin-amd64.tar.gz"
+      sha256 "9f1e8f090b22a17513d9fdbcee6bc141fc8c5b235efdf2dd9b49193598edb856"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.10/rwalk-0.5.10-darwin-arm64.tar.gz"
-      sha256 "bfda85efa98f78ce285fbf7f40f8dbf2ca862712a17fbbdd11edf52d930191fd"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.11/rwalk-0.5.11-darwin-arm64.tar.gz"
+      sha256 "7b7eaccb62a1e560bf32884ae6dffd115960484ca07f3afd2ffd2b745ec61af7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.10/rwalk-0.5.10-linux-amd64.tar.gz"
-      sha256 "a98a4614d848d6c8802729a5e299276f07a433ec5d2ef3f11cdbf810eb0c5f6a"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.11/rwalk-0.5.11-linux-amd64.tar.gz"
+      sha256 "520405e8854080c7e2f5914e643d57dc3f71c77d990a51b91e3dc9eb690219db"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.10/rwalk-0.5.10-linux-arm64.tar.gz"
-      sha256 "b949a2a9bf6fab5f1e255a5f056d2931b78b2e986294d042ad778fd481f64624"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.11/rwalk-0.5.11-linux-arm64.tar.gz"
+      sha256 "1f4a078b3e38a2e47473eeabdce7ecde2616043fbb2700de016ecff71947f4a2"
     end
   end
 
