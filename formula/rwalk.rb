@@ -5,31 +5,31 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.11.tar.gz"
-  sha256 "7fc7b9d60e7eb936ca8615869ff1ac5705c49f73a39f72ead13453b178e805b2"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.12.tar.gz"
+  sha256 "088dacf1d8acb067b63c3d74d38166d2c83a8aef10034fae250b33eb8d3c8b3f"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.11/rwalk-0.5.11-darwin-amd64.tar.gz"
-      sha256 "9f1e8f090b22a17513d9fdbcee6bc141fc8c5b235efdf2dd9b49193598edb856"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.12/rwalk-0.5.12-darwin-amd64.tar.gz"
+      sha256 "6e2a88547654b6eed22e918f48bb45d043c049d7f245863292ff663586a899b4"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.11/rwalk-0.5.11-darwin-arm64.tar.gz"
-      sha256 "7b7eaccb62a1e560bf32884ae6dffd115960484ca07f3afd2ffd2b745ec61af7"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.12/rwalk-0.5.12-darwin-arm64.tar.gz"
+      sha256 "d2bd942551cf5438458f116b8219031a690ffd09716844eb939b8494e02e2341"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.11/rwalk-0.5.11-linux-amd64.tar.gz"
-      sha256 "520405e8854080c7e2f5914e643d57dc3f71c77d990a51b91e3dc9eb690219db"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.12/rwalk-0.5.12-linux-amd64.tar.gz"
+      sha256 "6ff738aa2a25bd1f2865813b27965fb9909f69b5019d7d9914d84f3d9db70ca2"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.11/rwalk-0.5.11-linux-arm64.tar.gz"
-      sha256 "1f4a078b3e38a2e47473eeabdce7ecde2616043fbb2700de016ecff71947f4a2"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.12/rwalk-0.5.12-linux-arm64.tar.gz"
+      sha256 "38dcdc48f4731d7dc766fc0320659239d380eaa03ba47df9201b0f0da8a55cf1"
     end
   end
 
