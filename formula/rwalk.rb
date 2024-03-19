@@ -5,32 +5,32 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.19.tar.gz"
-  version "0.5.19"
-  sha256 "4327246e9f53b857b56c65c106777f6cc99aef81b64d688faf6c2b381e39e819"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.5.20.tar.gz"
+  version "0.5.20"
+  sha256 "129d45b6fa0676ece8f3f08ccfea2f9c4e3bd086753c4994432493ce2631f000"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.19/rwalk-0.5.19-darwin-amd64.tar.gz"
-      sha256 "db7301cf4ab34f1a4e457de8157b3cd7f265725076e5698becd8a19842b141df"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.20/rwalk-0.5.20-darwin-amd64.tar.gz"
+      sha256 "800e1dc37cee520f4af240739cc56b112980449121737a9c66c2a1c5e24a20e1"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.19/rwalk-0.5.19-darwin-arm64.tar.gz"
-      sha256 "55e3e9bacfc7ce19b942e21a28eb73e4659a426c0f00621ded4388ebf0f6f9e8"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.20/rwalk-0.5.20-darwin-arm64.tar.gz"
+      sha256 "4d1001098ea32c83cd5e559efca84ffbe1946a4e2bdcd08756837b47b79aecd6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.19/rwalk-0.5.19-linux-amd64.tar.gz"
-      sha256 "c13ad7559f1d7aae0e0afad371be30b59c9732c81c7e1e8df8b615f124e4cda7"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.20/rwalk-0.5.20-linux-amd64.tar.gz"
+      sha256 "4ee365624d41438c5247b9018b0a1eea094efc8a28aba1eed4a16586f0c850b6"
     end
 
     on_arm do
-      url "https://github.com/cestef/rwalk/releases/download/v0.5.19/rwalk-0.5.19-linux-arm64.tar.gz"
-      sha256 "4c4c89c0195b80fce28120e6c159652da612ba8b25cfc850403acde32dfb09da"
+      url "https://github.com/cestef/rwalk/releases/download/v0.5.20/rwalk-0.5.20-linux-arm64.tar.gz"
+      sha256 "086b172c2236db48245f1fd32bfdee6e105d4cdce3f23e6c6d126d30fe8137f6"
     end
   end
 
