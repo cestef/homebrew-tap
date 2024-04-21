@@ -5,9 +5,9 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.6.3.tar.gz"
-  version "0.6.3"
-  sha256 "9766d30965bdeccb46b1a651016e24a2204ac4b0d7f90644983c7b4932cc85ed"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.7.0.tar.gz"
+  version "0.7.0"
+  sha256 "f72926664c90e730d166c469f9e5c12452d2d769e1a25040bef0dcd997df7a97"
   license "MIT"
 
   on_macos do
