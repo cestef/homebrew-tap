@@ -5,14 +5,33 @@
 class Rwalk < Formula
   desc "Blazing fast web directory scanner written in rust"
   homepage "https://github.com/cestef/rwalk"
-  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.7.1.tar.gz"
-  sha256 "b4a61e57ffd0724dd38bacf28488b991737dd84f2592eb38ef6924781d7abf71"
+  url "https://github.com/cestef/rwalk/archive/refs/tags/v0.7.3.tar.gz"
+  version "0.7.3"
+  sha256 "e18871790de765f51923f2badad69b482352e1c06d3d63a5bbbc81b58a7e428b"
   license "MIT"
 
   on_macos do
+    on_intel do
+      url "https://github.com/cestef/rwalk/releases/download/v0.7.3/rwalk-0.7.3-darwin-amd64.tar.gz"
+      sha256 "518a896078796093c068074697e644f9f871be38bdcce942d6b7be3c96b91f9b"
+    end
+
+    on_arm do
+      url "https://github.com/cestef/rwalk/releases/download/v0.7.3/rwalk-0.7.3-darwin-arm64.tar.gz"
+      sha256 "ff616ce783bfc8998073d79853f9ac7dd1765d004881adc3a648ed18ff60d902"
+    end
   end
 
   on_linux do
+    on_intel do
+      url "https://github.com/cestef/rwalk/releases/download/v0.7.3/rwalk-0.7.3-linux-amd64.tar.gz"
+      sha256 "69681d9639f2a1b1208ed9610d770eb1595e5239db9085d521bb40483fbe4632"
+    end
+
+    on_arm do
+      url "https://github.com/cestef/rwalk/releases/download/v0.7.3/rwalk-0.7.3-linux-arm64.tar.gz"
+      sha256 "5e24bf3d5e6f05d554c7d921ba07550f541e45f3d4c78b6f73a029b2556a21f2"
+    end
   end
 
   def install
