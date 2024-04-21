@@ -2,6 +2,14 @@
 
 My personal [homebrew](brew.sh) tap for my formulae
 
+
+Start by tapping the repository:
+```bash
+brew tap cestef/tap
+```
+
+You can then install any of the formulae in this repository.
+
 <!-- project_table_start -->
 | Project                                    | Description                                        | Install               |
 | ------------------------------------------ | -------------------------------------------------- | --------------------- |
