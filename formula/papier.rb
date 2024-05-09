@@ -5,31 +5,32 @@
 class Papier < Formula
   desc "Perfectly inconvenient text editor"
   homepage "https://github.com/cestef/papier"
-  url "https://github.com/cestef/papier/archive/refs/tags/v0.2.37.tar.gz"
-  sha256 "7924076c3285e9e3a42e575b42519cbc6a9a2a0c9f0e8bd21682977e41d225fe"
+  url "https://github.com/cestef/papier/archive/refs/tags/v0.2.39.tar.gz"
+  version "0.2.39"
+  sha256 "b401c2bcf2931efbe4745be09c586a0e4b1322e4087e9340e69da044caf2f47c"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/cestef/papier/releases/download/v0.2.37/papier-0.2.37-darwin-amd64.tar.gz"
-      sha256 "a9f71fbcaf77acd71b71c4e7b52c6b37b22cc3bd1a21a99e9961c996d3cb5ef7"
+      url "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-darwin-amd64.tar.gz"
+      sha256 "d63a040618fe6de20da9b0ce83a96a7e3ad6cbda8f0ad88c34a03799910aea23"
     end
 
     on_arm do
-      url "https://github.com/cestef/papier/releases/download/v0.2.37/papier-0.2.37-darwin-arm64.tar.gz"
-      sha256 "66f964587b9b33df499a6459fe54a1ca76a00aae27e0f7de02f6aa99f12f35a8"
+      url "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-darwin-arm64.tar.gz"
+      sha256 "c04573323ddf7019132e578208e6206ca8de934540a2ae7748e1ee5ff61c6ec8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cestef/papier/releases/download/v0.2.37/papier-0.2.37-linux-amd64.tar.gz"
-      sha256 "85651b5c250f46f65d442d5e46c7e1cdc4db51514600f553ab6da1e38b86943f"
+      url "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-linux-amd64.tar.gz"
+      sha256 "321eab7e828557b867820a627051e61cce5e7c13d29314741e4018f462e9be43"
     end
 
     on_arm do
-      url "https://github.com/cestef/papier/releases/download/v0.2.37/papier-0.2.37-linux-arm64.tar.gz"
-      sha256 "2b88532cd86a1827967f75edcb38ac82fcd2aa26de08d37c5e10e7156db5ade2"
+      url "https://github.com/cestef/papier/releases/download/v0.2.39/papier-0.2.39-linux-arm64.tar.gz"
+      sha256 "ceeb79d4f0e1b9f8b50bbabe9cedc77fdbebf3bc32bd985c17ae7b90b42f5ddc"
     end
   end
 
