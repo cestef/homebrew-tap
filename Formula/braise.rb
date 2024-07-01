@@ -1,21 +1,21 @@
 class Braise < Formula
   desc "Run your tasks like a chef !"
   homepage "https://github.com/cestef/braise"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cestef/braise/releases/download/v0.1.3/braise-aarch64-apple-darwin.tar.xz"
-      sha256 "0b89b38510220fc7b51e3096e3dd0691aa54adc02fc12153f245412bad34f7ea"
+      url "https://github.com/cestef/braise/releases/download/v0.1.4/braise-aarch64-apple-darwin.tar.xz"
+      sha256 "8490fd87f08e60b9aa96b5d2e6c6e538b618cfb06988ac44bd8d4ed8f883da3a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cestef/braise/releases/download/v0.1.3/braise-x86_64-apple-darwin.tar.xz"
-      sha256 "cb6f90022397d77866f0c3b51abb149d5dd7bf6a46f6752b83113509ec61cb89"
+      url "https://github.com/cestef/braise/releases/download/v0.1.4/braise-x86_64-apple-darwin.tar.xz"
+      sha256 "e0365dde66fd1ef0dc79ed7f3998e34d8760a45a645abe760e05f5db40cb9ec9"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/cestef/braise/releases/download/v0.1.3/braise-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dc41ff60430fc8b7247f951d96769cab013385a95b301792ff26d9eccea32a06"
+      url "https://github.com/cestef/braise/releases/download/v0.1.4/braise-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4760378525b1e83aef388cfc9bd9aa79884b15f2779c288a7e851655a3e2c394"
     end
   end
 
