@@ -1,54 +1,34 @@
 class Braise < Formula
-  desc "Run your tasks like a chef !"
+  desc "Run your tasks like a chef!"
   homepage "https://github.com/cestef/braise"
-  version "0.1.11"
+  version "0.2.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cestef/braise/releases/download/v0.1.11/braise-aarch64-apple-darwin.tar.xz"
-      sha256 "18879e5b201bd702c0df3f87c075390f92d5209ab55c8a15757ef0112ad548d2"
+      url "https://github.com/cestef/braise/releases/download/v0.2.3/braise-aarch64-apple-darwin.tar.xz"
+      sha256 "85d0e644de4d2314ce8680923c24b0571a6e9be1e4ea2d74fec515a0187c6fad"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cestef/braise/releases/download/v0.1.11/braise-x86_64-apple-darwin.tar.xz"
-      sha256 "59f3272906dad8f5c3849698c0f5af3a27371a385af1d4ba658869f335a11ab8"
+      url "https://github.com/cestef/braise/releases/download/v0.2.3/braise-x86_64-apple-darwin.tar.xz"
+      sha256 "3d396074aad935f173f95b626930bb58a0100fc3cde171dad728900c51a4dbe1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cestef/braise/releases/download/v0.1.11/braise-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "84a089b27430d8a8e10988304d34c47d7253d0c8f5d8e151b3fc2a2a2a032408"
+      url "https://github.com/cestef/braise/releases/download/v0.2.3/braise-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8eb7e43e90be443387792d376d15ee70cb9563c92eae50f3c454e7d8b2b1ee98"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cestef/braise/releases/download/v0.1.11/braise-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ba6ab3a6f4c4f5382b2d47c09f46325c768910ff8203de8175ae4f11b0fd54df"
+      url "https://github.com/cestef/braise/releases/download/v0.2.3/braise-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "50a9ca363f9217110a2c0db29d24a871e579e437d5b31862b1ff354a230d1da0"
     end
   end
 
   BINARY_ALIASES = {
-    "aarch64-apple-darwin":      {
-      braise: [
-        "br",
-      ],
-    },
-    "aarch64-unknown-linux-gnu": {
-      braise: [
-        "br",
-      ],
-    },
-    "x86_64-apple-darwin":       {
-      braise: [
-        "br",
-      ],
-    },
-    "x86_64-pc-windows-gnu":     {
-      "braise.exe": [
-        "br.exe",
-      ],
-    },
-    "x86_64-unknown-linux-gnu":  {
-      braise: [
-        "br",
-      ],
-    },
+    "aarch64-apple-darwin":      {},
+    "aarch64-unknown-linux-gnu": {},
+    "x86_64-apple-darwin":       {},
+    "x86_64-pc-windows-gnu":     {},
+    "x86_64-unknown-linux-gnu":  {},
   }.freeze
 
   def target_triple
