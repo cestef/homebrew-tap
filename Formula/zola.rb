@@ -1,25 +1,25 @@
 class Zola < Formula
   desc "A fast static site generator with everything built-in"
   homepage "https://www.getzola.org"
-  version "0.20.3"
+  version "0.20.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cestef/zola/releases/download/v0.20.3/zola-aarch64-apple-darwin.tar.xz"
-      sha256 "f2b40f9d149d40f309e93f113cb6b680e6881e01e84aa4ed2868c209b8ef49d6"
+      url "https://github.com/cestef/zola/releases/download/v0.20.4/zola-aarch64-apple-darwin.tar.xz"
+      sha256 "44cff503e9668bff7c814a2a5a15830993cbd124d09557c17e1bc23b07006277"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cestef/zola/releases/download/v0.20.3/zola-x86_64-apple-darwin.tar.xz"
-      sha256 "3a315cf8612762529171c364e352f3f8a15f4aa227a25f773556602467edc581"
+      url "https://github.com/cestef/zola/releases/download/v0.20.4/zola-x86_64-apple-darwin.tar.xz"
+      sha256 "5df8fd637b9a2707e2e8838cc30227f92e67bd2e3455b1c0aaf47ea7e04d1615"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cestef/zola/releases/download/v0.20.3/zola-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4736142d80d7b60e9728619fdeec5191877a5ae34d68d83aa803af30c03d0ce2"
+      url "https://github.com/cestef/zola/releases/download/v0.20.4/zola-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b7dbc959eafd666f012e428297b1e8f059081ca3412087a10c60da4e2993ad51"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cestef/zola/releases/download/v0.20.3/zola-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "aea83e6c29ccbf3b4620d1c2aaa0b800badc18346fea5fa7c37ff50c55780327"
+      url "https://github.com/cestef/zola/releases/download/v0.20.4/zola-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a2a5267130b26c8397f1be5958b9075923f03e17804a505938569e4ede6bd5e8"
     end
   end
   license "MIT"
