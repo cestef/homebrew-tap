@@ -5,21 +5,21 @@ class Zola < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/cestef/zola/releases/download/v0.20.13/zola-aarch64-apple-darwin.tar.xz"
-      sha256 "cbfa42354e331b0a4e4e8d3b8028d6151c4f514e548f9bb89ca028cdd81202ca"
+      sha256 "3c85960df3a668fb4d72598a50f60bb8aef3dbd71bc5ea06b0c04764e6efc242"
     end
     if Hardware::CPU.intel?
       url "https://github.com/cestef/zola/releases/download/v0.20.13/zola-x86_64-apple-darwin.tar.xz"
-      sha256 "ba1ec673b648f9307f58b7af0d1aac093bb546e99e767e755f9210457f45e407"
+      sha256 "57b5536a6bda5fb936243a4e1443e56a128d919ed9eb1f9931720bdcbddc4e5b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/cestef/zola/releases/download/v0.20.13/zola-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "49ce2a58d84841659572eb5bdd076ea4a6cff1426f1ecbc1ceff84aaf3bfe380"
+      sha256 "7e18820144e8ae19880561d4dc0a7751e563fb0ca6b17dd91d9a1de29e110e37"
     end
     if Hardware::CPU.intel?
       url "https://github.com/cestef/zola/releases/download/v0.20.13/zola-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "41b94d4b8860592f262c40047acb473824d93bf9c477d942cd83f706e3805bbf"
+      sha256 "29382ec643d63e299a69fb810fe2a6af23b084a4404bbde7dabf9381014cd0d9"
     end
   end
   license "MIT"
